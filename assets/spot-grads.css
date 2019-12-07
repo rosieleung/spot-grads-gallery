@@ -1,0 +1,145 @@
+/* Dog Gallery Widget */
+.spot-grads-intro-text {
+	margin: 1em auto 3em;
+}
+
+.spot-grads-sorting-filtering {
+	font-size: 13px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 1.5em 0;
+	max-width: 1240px;
+}
+
+.spot-grads-sorting {
+	margin-right: 20px;
+}
+
+.spot-grads-sorting-filtering select {
+	cursor: pointer;
+	margin-top: 5px;
+	font-size: inherit;
+}
+
+.spot-grads-dog {
+	text-align: center;
+	margin: 0 8px 8px 0;
+	width: 200px;
+}
+
+.spot-grad-name-wrapper {
+	background: #446897;
+	padding: 10px;
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 58px;
+}
+
+.spot-grad-name {
+	vertical-align: middle;
+	display: table-cell;
+	font-size: inherit;
+	color: #fff;
+	line-height: 1.2;
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+
+.spot-grad-photo {
+	overflow: hidden;
+	height: 200px;
+	background: #ccc;
+}
+
+.spot-grads-dog img {
+	transition: transform .2s, filter .2s;
+}
+
+.spot-grads-dog:hover img {
+	transform: scale(1.05);
+	filter: brightness(1.1);
+}
+
+.spot-grads-dog:hover .spot-grad-name-wrapper {
+	background: #5389cc;
+}
+
+.single-spot_grad .article-single {
+	text-align: center;
+}
+
+.dog-gallery-widget h3.widget-title a {
+	color: #fff;
+}
+
+.single-spot-grads-dog {
+	text-align: center;
+	color: #333;
+}
+
+.home .single-spot-grads-dog {
+	color: #fff;
+}
+
+.single-spot-grads-dog .single-spot-grad-name-wrapper h3 {
+	padding: 0;
+	margin: 1em 0;
+	background: none;
+	border: 0;
+	color: inherit;
+}
+
+.single-spot-grads-dog .single-spot-grad-name-wrapper h4 {
+	margin: 0;
+	font-size: 13px;
+	color: inherit;
+}
+
+.single-spot-grads-dog a, .single-spot-grad-name-wrapper h3 {
+	color: inherit;
+}
+
+.single-spot-grads-dog a:hover img {
+	filter: brightness(1.1);
+}
+
+.single-spot-grads-dog .single-spot-grad-name-wrapper a:hover {
+	opacity: .7;
+	color: inherit;
+}
+
+@media (max-width: 440px) {
+	.spot-grads-dog {
+		width: 180px;
+	}
+
+	.spot-grads-dog:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.spot-grad-photo {
+		height: auto;
+	}
+}
+
+@media (max-width: 390px) {
+	.spot-grads-dog {
+		width: 150px;
+	}
+}
+
+@media (max-width: 340px) {
+	.spot-grads-dog {
+		width: 130px;
+	}
+
+	.spot-grads-filtering {
+		margin-top: 20px;
+	}
+
+	.spot-grads-sorting-filtering select {
+		display: block;
+	}
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "key": "group_5c721cceef3a8",
+        "title": "SPOT Grad Gallery Settings",
+        "fields": [
+            {
+                "key": "field_5c721cdc172e7",
+                "label": "Intro text",
+                "name": "spot_grads_intro_text",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-gallery-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
